@@ -1,4 +1,84 @@
 .App {
   text-align: center;
+  /* display: grid;
+  grid-template-areas: 
+    " a a a a b"
+    " c d d d d "
+    " c d d d d"
+    " c e e e e";
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  padding: 8px; */
+
+  
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(100, 100, 40, 1);
+  background: url(https://secure.img1-cg.wfcdn.com/im/69373027/resize-w750%5Ecompr-r85/1278/127848537/Abstract+Double+Roll+%2528Three+11%2527+Panels%2529+Wallpaper.jpg);
+  color:azure;
+  font-family: 'Poiret One', cursive;
+  }  
+
+header, footer, nav, div {
+  padding: 1.6em;
+  background-color: rgba(100, 20, 30, .8);
+  border-radius: 14px;
+  }
+
+/* .Header_Container {
+  grid-area: a;
 }
+.Nav_Container{
+  grid-area: b;
+}
+.Footer_Container{
+  grid-area: e;
+} */
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  }
+  
+  .Header_Container { grid-area: 1 / 1 / 2 / 5; }
+  .Pic_Container { grid-area: 1 / 5 / 2 / 6; }
+  .Nav_Container { grid-area: 2 / 1 / 5 / 2; }
+  .Body_Container { grid-area: 2 / 2 / 4 / 6; }
+  .Footer_Container { grid-area: 4 / 2 / 5 / 6; }
+
+
+
+
+
+/* #pageHeader {
+  grid-area: header;
+  text-align: center;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+.mainNav { 
+  grid-area: nav;
+  
+  }
+.link{
+  display: block;
+  flex-flow: row;
+  display: inline-grid;
+  padding: 0.5rem;
+  gap: 1rem;
+  background: none;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  color:azure;
+  text-align: left;
+  font-size: 16px;
+} */
 

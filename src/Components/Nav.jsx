@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 function Nav() {
   return (
     <>
-      <div className="nav-bar-component">
+      <div className="Nav_Contatiner">
       <div className="nav-desktop">
         <NavLink className="navlink" to="/">
           Home
