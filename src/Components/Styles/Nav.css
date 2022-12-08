@@ -1,0 +1,25 @@
+
+
+.Nav_Container{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 1em;
+  margin: auto;
+  height: 95%;
+  width: 84%;
+
+}
+
+.navlink{
+  text-decoration: none;
+  color: aliceblue;
+  margin: 10px;
+  font-size: 24px;
+  padding-top: 1em;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+}

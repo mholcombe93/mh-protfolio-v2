@@ -9,24 +9,27 @@ import AboutMe from "./Screens/AboutMe";
 import Pic from "./Components/Pic";
 import Projects from "./Screens/Projects";
 import Resume from "./Screens/Resume";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
+    <div className="App">
     <div className="parent">
-      {/* <div class="parent"> */}
       <Header />
       <Pic />
       <Nav />
       <Body />
       <Footer />
-
+  
+   
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route path="/resume" element={<Resume />} /> */}
       </Routes>
-    </div>
+      </div>
+      </div>
   );
 }
 

@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom"
 
 function Nav() {
   return (
-    <>
-      <div className="Nav_Contatiner">
-      <div className="nav-desktop">
+  
+    <div className="Nav_Container">
+  
         <NavLink className="navlink" to="/">
           Home
         </NavLink>
@@ -17,12 +17,10 @@ function Nav() {
         </NavLink>
         <NavLink className="navlink" to="/resume">
           Resume
-        </NavLink>
-      </div>
+          </NavLink>
+      
     </div>
       
-      
-    </>
   )
 }
 
