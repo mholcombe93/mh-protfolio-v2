@@ -5,7 +5,7 @@ function Resume() {
   return (
     <>
       <h1>Resume</h1>
-      <p className='Home_text'></p>
+      <p className='Home_text'> place a pick and a downloadable pdf</p>
 
 
 

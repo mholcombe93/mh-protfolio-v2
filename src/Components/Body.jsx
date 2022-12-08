@@ -10,7 +10,7 @@ function Body() {
 
   let BodyContent = <Home />;
   switch (location.pathname) {
-    
+
     case '/projects': {
       BodyContent = <Projects />
       break;
@@ -21,6 +21,7 @@ function Body() {
     }
     case '/resume': {
       BodyContent = <Resume />
+      break;
     }
     default: {
       BodyContent = <Home />

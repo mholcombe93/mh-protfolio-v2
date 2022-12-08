@@ -20,14 +20,13 @@ function App() {
       <Nav />
       <Body />
       <Footer />
-  
    
-      <Routes>
+      {/* <Routes> */}
         {/* <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} /> */}
-      </Routes>
+      {/* </Routes> */}
       </div>
       </div>
   );

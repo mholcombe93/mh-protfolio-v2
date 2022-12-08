@@ -11,7 +11,7 @@
 .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   height: 100vh;
@@ -26,13 +26,13 @@
   }
   p{
     font-family: 'Poiret One';
-    font-size: 1.2em;
+    font-size: 1rem;
   }
   
   .Header_Container { grid-area: 1 / 1 / 2 / 5; }
   .Pic_Container { grid-area: 1 / 5 / 2 / 6; }
-  .Nav_Container { grid-area: 2 / 1 / 5 / 2; }
-  .Body_Container { grid-area: 2 / 2 / 4 / 6; }
-  .Footer_Container { grid-area: 4 / 2 / 5 / 6; }
+  .Nav_Container { grid-area: 2 / 1 / 8 / 2; }
+  .Body_Container { grid-area: 2 / 2 / 7 / 6; }
+  .Footer_Container { grid-area: 7 / 2 / 8 / 6; }
 
 
