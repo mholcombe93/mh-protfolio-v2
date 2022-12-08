@@ -22,23 +22,24 @@ function Nav() {
           Resume
       </NavLink>
       <div className='Icon_Container'>
-        <p> Find Me On:</p>
-        <a
+        <p> Connect With Me At:</p>
+        <a className='Find_Me_Link'
           href='https://github.com/mholcombe93/'
           target={'_blank'}
           rel='noreferrer'
         >
           <BsGithub /> Github
         </a> {" "}
-        <a
+        <a className='Find_Me_Link'
             href="https://www.linkedin.com/in/matthew-holcombe93/"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin /> LinkedIn
         </a>{" "}
-        <a href="mailto:mholcombe93@gmail.com">
-            <TfiEmail /> e-mail
+        <a className='Find_Me_Link'
+          href="mailto:mholcombe93@gmail.com">
+            <TfiEmail /> e-Mail
           </a>{" "}
 
       </div>
