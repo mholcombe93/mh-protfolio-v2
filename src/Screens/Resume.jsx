@@ -1,11 +1,17 @@
 import './Styles/Resume.css'
+import ResumePDF from "../PDFS/ResumePDF.pdf"
 
 function Resume() {
 
   return (
     <>
-      <h1>Resume</h1>
-      <p className='Home_text'> place a pick and a downloadable pdf</p>
+      <h1></h1>
+      <a className='ResumePDF'
+        href={ResumePDF}
+        target="_blank" >
+        Resume Link
+
+      </a>
 
 
 
