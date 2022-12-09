@@ -1,25 +1,25 @@
-import './Styles/Resume.css'
-import ResumePDF from "../PDFS/ResumePDF.pdf"
+// import './Styles/Resume.css'
+// import ResumePDF from "../PDFS/ResumePDF.pdf"
 
-function Resume() {
+// function Resume() {
 
-  return (
-    <>
-      <h1></h1>
-      <a className='ResumePDF'
-        href={ResumePDF}
-        target="_blank" >
-        Resume Link
+//   return (
+//     <>
+//       <h1></h1>
+//       <a className='ResumePDF'
+//         href={ResumePDF}
+//         target="_blank" >
+//         Resume Link
 
-      </a>
-
-
+//       </a>
 
 
-    </>
 
 
-);
-}
+//     </>
 
-export default Resume;
+
+// );
+// }
+
+// export default Resume;

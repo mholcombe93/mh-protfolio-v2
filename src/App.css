@@ -11,7 +11,7 @@ div {
 .parent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   height: 100vh;
@@ -27,13 +27,13 @@ div {
   grid-area: 1 / 5 / 2 / 6;
 }
 .Nav_Container {
-  grid-area: 2 / 1 / 9 / 2;
+  grid-area: 2 / 1 / 10 / 2;
 }
 .Body_Container {
-  grid-area: 2 / 2 / 8/ 6;
+  grid-area: 2 / 2 / 9/ 6;
 }
 .Footer_Container {
-  grid-area: 8 / 2 / 9 / 6;
+  grid-area: 9 / 2 / 10 / 6;
 }
 
 h1 {

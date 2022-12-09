@@ -9,7 +9,7 @@ function Projects() {
     <>
       <h1>Projects</h1>
       <div className="Project_Parent">
-        <div class="Project_Title"> RuPaul's Drag race Jeopardy</div>
+        <div class="Project_Title"> RuPaul's Drag Race Jeopardy</div>
         <div class="Project_Pic1">
           <Link to="/DragRace">
              {" "}
@@ -22,7 +22,7 @@ function Projects() {
              {" "}
              <img src={BSide} alt="B-Side Music" className="Project_Pic1" />
          </Link></div>
-        <div class="Project_Title"> Shills </div>
+        <div class="Project_Title"> Shills: Twitter Clone </div>
         <div class="Project_Pic3">
           <Link to="/Shills">
              {" "}
