@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  }  
+}
 
- div {
+div {
   padding: 1.2em;
-  background-color: rgba(100, 20, 30, .8);
+  background-color: rgba(100, 20, 30, 0.8);
   border-radius: 14px;
-  }
+}
 
 .parent {
   display: grid;
@@ -17,22 +17,29 @@
   height: 100vh;
   margin: auto;
   background-color: rgb(232, 201, 201);
-  color:azure;
-  font-family: 'Poiret One', cursive;
-  }
-  .Header_Container { grid-area: 1 / 1 / 2 / 5; }
-  .Pic_Container { grid-area: 1 / 5 / 2 / 6; }
-  .Nav_Container { grid-area: 2 / 1 / 9 / 2; }
-  .Body_Container { grid-area: 2 / 2 / 8/ 6; }
-  .Footer_Container { grid-area: 8 / 2 / 9 / 6; }
+  color: azure;
+  font-family: "Poiret One", cursive;
+}
+.Header_Container {
+  grid-area: 1 / 1 / 2 / 5;
+}
+.Pic_Container {
+  grid-area: 1 / 5 / 2 / 6;
+}
+.Nav_Container {
+  grid-area: 2 / 1 / 9 / 2;
+}
+.Body_Container {
+  grid-area: 2 / 2 / 8/ 6;
+}
+.Footer_Container {
+  grid-area: 8 / 2 / 9 / 6;
+}
 
-  h1{
-    font-size: 2.6em;
-  }
-  p{
-    font-family: 'Poiret One';
-    font-size: 1.1rem;
-  }
-
-
-
+h1 {
+  font-size: 2.6em;
+}
+p {
+  font-family: "Poiret One";
+  font-size: 1.1rem;
+}

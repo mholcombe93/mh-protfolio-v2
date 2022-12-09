@@ -8,7 +8,7 @@ function Pic() {
 
   return (
     <div className='Pic_Container'>
-      <NavLink to="/"><img src={ProfilePic} alt="Porfile Pic" className='Profile_Pic' /> </NavLink>
+      <NavLink to="/"><img src={ProfilePic} alt="Profile Pic" className='Profile_Pic' /> </NavLink>
     </div>
 );
 }
