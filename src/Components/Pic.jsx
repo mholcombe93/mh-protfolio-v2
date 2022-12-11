@@ -7,7 +7,7 @@ import '../App.css'
 function Pic() {
 
   return (
-    <div className='Pic_Container'>
+    <div className='Profile_Pic_Container'>
       <NavLink to="/"><img src={ProfilePic} alt="Profile Pic" className='Profile_Pic' /> </NavLink>
     </div>
 );

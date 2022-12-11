@@ -1,4 +1,4 @@
-
+import "./Styles/AboutMe.css"
 
 function AboutMe() {
   return (

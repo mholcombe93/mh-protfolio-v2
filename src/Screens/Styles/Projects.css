@@ -14,7 +14,7 @@ h1{
 }
 
 .Project_Title{
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -44,6 +44,7 @@ h1{
   border: 2px solid rgb(88, 23, 16);
   width: 85%;
   height: auto;
+  padding: 0
 }
 
 .Project_Pic1:hover,
