@@ -10,7 +10,9 @@
   margin: auto;
   height: 95%;
   width: 84%;
-
+}
+p{
+  font-size: 14px;
 }
 
 .navlink,
@@ -19,7 +21,6 @@
   color: aliceblue;
   margin: 10px;
   font-size: 24px;
-  padding-top: 1em;
   flex-wrap: wrap;
   top: 0;
   left: 0;

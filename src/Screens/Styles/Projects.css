@@ -10,6 +10,7 @@ h1{
   grid-row-gap: 6px;
   align-items: center;
   justify-content: center;
+  max-height: auto;
 }
 
 .Project_Title{

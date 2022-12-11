@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Projects() {
   return (
     <>
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <div className="Project_Parent">
         <div class="Project_Title"> RuPaul's Drag Race Jeopardy</div>
         <div class="Project_Pic1">
