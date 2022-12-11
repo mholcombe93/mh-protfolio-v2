@@ -52,3 +52,18 @@ filter: brightness(1.2);
 transform: scale(1.16);
 transition: 300ms ease-in-out;
 }
+
+.Pic_Container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) repeat(2, 0);
+  grid-template-rows: repeat(1, 1fr) repeat(2, 0);
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.DR_Project_Pic{
+  border: 2px solid rgb(88, 23, 16);
+  width: 30%;
+  height: auto;
+}

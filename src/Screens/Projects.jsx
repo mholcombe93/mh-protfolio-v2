@@ -1,7 +1,7 @@
 import "./Styles/Projects.css";
-import dragBoard from "./Images/dragBoard.jpeg"
+import dragBoard from "./Images/dragBoard.jpeg";
 import BSide from "./Images/BSide.jpeg";
-import Shills from "./Images/Shills.jpeg";
+import ShillsFeed from "./Images/ShillsFeed.jpeg";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -26,7 +26,7 @@ function Projects() {
         <div class="Project_Pic3">
           <Link to="/Shills">
              {" "}
-             <img src={Shills} alt="Shills" className="Project_Pic1" />
+             <img src={ShillsFeed} alt="Shills" className="Project_Pic1" />
           </Link></div>
       </div>
     </>
