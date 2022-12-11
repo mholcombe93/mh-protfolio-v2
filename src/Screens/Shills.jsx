@@ -11,7 +11,7 @@ function Shills() {
     <div className="Bio_content">
     <h1 className="Home_text"> Shills Twitter Clone Project </h1>
     <break></break>
-    <p className="Home_text"> Built with React, CSS , Tailwinds, Django Rest, Python </p>
+    <p className="Home_text"> Built with React, CSS , Tailwinds, Python, Django Rest, SQL </p>
     <p>
       {" "}
         A mock of Twitter based on the finance industry, a place to share all your financial secrets. Backend built with Django Rest using user authentication stored in cookies.
@@ -25,7 +25,7 @@ function Shills() {
 
     <a
       className="Find_Me_Link"
-      href="https://github.com/mholcombe93/Drag-Race-Jeoprady-Trivia"
+      href="https://github.com/SEI-Buffleheads/twitter-clone-frontend"
       target={"_blank"}
       rel="noreferrer"
     >
@@ -33,7 +33,7 @@ function Shills() {
     </a>
     <a
       className="Find_Me_Link"
-      href="https://drag-race-jeopardy.netlify.app/"
+      href="https://shill-social.netlify.app/"
       target={"_blank"}
       rel="noreferrer"
     >

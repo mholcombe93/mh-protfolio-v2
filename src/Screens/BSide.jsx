@@ -10,9 +10,14 @@ function BSide() {
 
   return (
     <div className="Bio_content">
-      <p className='Home_text'>  Bside  info </p>
+      <h1 className='Home_text'>  B-Side Music Fan Site </h1>
       <break></break>
-      <p className='Home_text'> other stuff  </p>
+       <p className="Home_text"> Built with React, CSS, MongoDB, Node </p>
+      <p>
+        {" "}
+        A full CRUD fan site to showcase artists with a lesser fanbase. API built in Mongo to host Artists, Albums, Songs, Years, Genres and more.
+        Front end allows for adding in artist and albums. Acted as project manager of a group of 5 to create and host site.
+      </p>
       <div className="Pics_Container">
         <img src={BSideGenre} alt="Drag Race Board" className="DR_Project_Pic" />
         <img src={BSideHome} alt="Drag Race Board" className="DR_Project_Pic" />
