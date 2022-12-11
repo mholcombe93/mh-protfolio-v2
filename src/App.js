@@ -19,7 +19,7 @@ function App() {
       <Pic />
       <Nav />
       <Body />
-      <Footer />
+      {/* <Footer /> */}
    
       {/* <Routes> */}
         {/* <Route path="/" element={<Home />} />
